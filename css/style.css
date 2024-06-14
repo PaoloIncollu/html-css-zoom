@@ -63,6 +63,7 @@ a{
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
     
     
@@ -74,12 +75,9 @@ a{
     position: relative;
     width: 150px;
     height: 100px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin: 2px;
     
     
-
-
 }
 
 .user{
@@ -109,6 +107,9 @@ footer{
     bottom: 0;
     left: 0;
     justify-content: space-between;
+    overflow-x: auto;
+    
+    
     
 }
 
@@ -120,6 +121,8 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
     width: fit-content;
+    
+    
     
 
 }
